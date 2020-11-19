@@ -1,0 +1,113 @@
+.div1{position: absolute;height: 1150px;width: 1500px;}
+.header{position: absolute;height: 300px;width: 1500px;background-image: url(images/banner.jpg);}
+.col{background-color: black;height: 300px;width: 1500px;opacity: 0.6}
+.ing{position: absolute;top: 50px;left: 130px;color: white;font-size: 50px}
+.home{color: white;position: absolute;;top: 50px;left: 800px;font-size: 18px}
+.home:hover{color: orange;transition-duration: 2s}
+.about{color: white;position: absolute;top: 50px;left: 870px;font-size: 18px}
+.about:hover{color: orange;transition-duration: 2s}
+.contact{color: white;position: absolute;top: 50px;left: 930px;font-size: 18px;}
+.contact:hover{color: orange;transition-duration: 2s}
+.login{color: white;position:absolute; top:50px;left: 1080px;font-size: 18px;}
+.login:hover{color: orange;transition-duration: 2s}
+.register{color:white;position: absolute;top: 50px;left: 1160px;font-size: 18px}
+.register:hover{color: orange;transition-duration: 2s}
+.ab{position:absolute;top: 200px;left: 600px;font-size: 50px;color: white;letter-spacing: 3px}
+
+ .div2{position: absolute;top: 300px;height: 850px;width: 1500px;}
+ #login{position: absolute;top: 180px;left: 600px;color: orange;font-size: 50px;}
+ .form1{position: absolute;top: 300px;left: 580px;height: 400px;width: 400px;}
+ #fn{width: 100%;height: 10%}
+ #ln{position: absolute;top: 70px;left: 0px;width: 100%;height:10%;}
+ #pas{position: absolute;top: 140px;left:0px;width: 100%;height: 10%}
+ #sub{position: absolute;top: 220px;left: 0px;width: 100%;height: 10%;background-color: blue}
+ #sub:hover{background-color: orange;transition-duration: 1s}
+
+
+.div3{position: absolute;top: 1150px;height: 250px;width:1500px;background-image: url(images/bg.jpg); }
+.d1{position: absolute;left: 150px;height: 250px;width: 300px;}
+.des{color: orange;height: 100px;position:absolute;left: 85px;top: 70px;font-size: 30px}
+.des1{color: white;position: absolute;left: 20px;top: 120px;height: 150px;font-size: 20px}
+#i{font-size: 200px;color: white;position: absolute;left: 90px;top: 40px;opacity: 0.3}
+/*#i:hover{transform: scale(1.5,1.5);transition-duration: 2s;transition-duration: translate(50%,50%);left: 50%;right: 50%;top: 50%;bottom: 50%}*/
+.d2{position: absolute;left: 550px;height: 250px;width: 300px;}
+#i2{font-size: 200px;color: white;position: absolute;left: 90px;top: 40px;opacity: 0.2}
+.des2{color: orange;height: 100px;position:absolute;left: 85px;top: 70px;font-size: 30px}
+.des3{color: white;position: absolute;left: 20px;top: 120px;height: 150px;font-size: 20px}
+
+.d3{position: absolute;left: 950px;height: 250px;width: 300px;}
+#i3{font-size: 200px;color: white;position: absolute;left: 90px;top: 40px;opacity: 0.2}
+.des4{color: orange;height: 100px;position:absolute;left: 70px;top: 65px;font-size: 30px}
+.des5{color: white;position: absolute;left: 20px;top: 120px;height: 150px;font-size: 20px}
+
+.div4{position: absolute;top: 1400px;height: 500px;width: 1500px;}
+.img{position: absolute;top: 80px;left: 150px;height: 400px;width: 250px;}
+.img1{position: absolute;top:0px;height: 90px;width:250px;}
+.img11{position: absolute;top: 10px;left: 10px}
+.im{font size:20px;color: blue;position: absolute;left: 120px;top: 20px;}
+
+.img2{position: absolute;top:90px;height: 90px;width:250px;}
+.img22{position: absolute;top: 10px;left: 10px}
+.im1{font size:20px;color: blue;position: absolute;left: 120px;top: 20px;}
+
+.img3{position: absolute;top:180px;height: 90px;width:250px;}
+.img33{position: absolute;top: 10px;left: 10px}
+.im3{font size:20px;color: blue;position: absolute;left: 120px;top: 20px;}
+
+.img4{position: absolute;top:270px;height: 90px;width:250px;}
+.img44{position: absolute;top: 10px;left: 10px}
+.im4{font size:20px;color: blue;position: absolute;left: 120px;top: 20px;}
+
+ 
+.back{position: absolute;top: 80px;left: 550px;height: 350px;width: 450px;
+   animation-name: img;
+   animation-duration: 5s;
+   animation-direction: normal;
+   animation-iteration-count: infinite;
+}
+@keyframes img
+{
+	0%{background-image: url(images/t1.jpg);background-size: 450px 350px ;background-repeat: no-repeat;}
+	25%{background-image: url(images/t2.jpg);background-size: 450px 350px ;background-repeat: no-repeat;}
+	50%{background-image: url(images/t3.jpg);background-size: 450px 350px ;background-repeat: no-repeat;}
+	75%{background-image: url(images/t4.jpg);background-size: 450px 350px ;background-repeat: no-repeat;}
+	100%{background-image: url(images/t5.jpg);background-size: 450px 350px ;background-repeat: no-repeat;}
+}
+
+.div5{position: absolute;top: 1900px;width: 1500px;height: 600px;}
+.in1{position: absolute;top: 0px;width: 1500px;height: 230px;background-image: url(images/bg.jpg);background-size: 1500px 230px;}
+.inn11{position:absolute;top: 40px;left: 200px;height: 80px;width: 200px;}
+.design{color: white;font-size: 40px;}
+.design1{color: grey;font-size: 18px;}
+.m{position: absolute;top: 50px;left: 900px;width: 350px;height: 35px;}
+.m1{position:absolute;top:0px;width: 250px;height: 35px;}
+.m3{position: absolute;left: 250px;height: 35px;width: 100px;}
+#mm{width: 100%;}
+
+.in2{position: absolute;top: 230px;width: 1500px;height: 270px;background-color: black;}
+.a1{position: absolute;top:30px;left:100px;height:200px;width:350px;}
+.o{position: absolute;height: 70px;width: 350px;}
+#me{font-size: 30px;color: white;position: absolute;top: 10px;left: 10px;}
+.o1{position: absolute;top: 70px;height:90px;width: 350px; }
+.o2{position: absolute;left:0px;width: 150px;height:90px;}
+.o22{position: absolute;left: 10px;top: 10px}
+.o3{position: absolute;left: 150px;top:0px;}
+.two{position: absolute;left: 550px;top: 10px;height: 200px;width: 200px;}
+.two2{position: absolute;height: 60px;width:200px;}
+#w{font-size: 30px;color: white}
+.point{position: absolute;top: 60px;width: 200px;height: 140px;}
+.text{color: white; }
+.text:hover{color: blue;}
+.text1{color: white; }
+.text1:hover{color: blue;}
+.text2{color: white; }
+.text2:hover{color: blue;}
+
+.three{position: absolute;left: 800px;top:10px;height: 200px;width: 200px;}
+.text4{font-size: 30px;color: white}
+.three2{position: absolute;top: 60px;width:200px;height:140px;}
+#th{position: absolute;top: 15px;left: 10px;border: 3px solid white;color: white}
+#th1{position: absolute;top: 15px;left: 80px;border: 3px solid white}
+#th2{position: absolute;top: 65px;left: 20px;border: 3px solid white}
+.bottom{position: absolute;top: 500px;height: 100px;width: 1500px;background-color: black}
+#bottom{position: absolute;top: 50px;left: 550px;color: white}
